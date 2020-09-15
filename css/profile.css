@@ -1,0 +1,21 @@
+body {
+    background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif") ;
+    background-blend-mode: luminosity;
+    background-size:80% ;
+    text-align: center;
+    color: whitesmoke;
+
+
+}
+*{
+    font-family: 'Roboto Mono', monospace;
+    color: chartreuse;
+}
+
+
+#pictureMichael {
+
+    width: 300px;
+    height: 300px;
+
+}
