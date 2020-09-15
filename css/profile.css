@@ -1,27 +1,50 @@
 body {
     background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif") ;
-    background-blend-mode: darken;
+    background-color: black;
 
     background-size:100% ;
     text-align: center;
     color: whitesmoke;
-
-
-
 }
+
+
 *{
     font-family: 'Roboto Mono', monospace;
     color: chartreuse;
 }
-.name{
+
+.jumbotron{
+    max-height: 14em;
+
+}
+.icon{
+
+    display: none;
+    margin-left: 1em;
+    /*position: absolute;*/
+    /*margin-left: 10em;*/
+}
+
+
+.name, .icon{
     color: black !important
 }
 
 
+
 #pictureMichael {
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: invert(20%);
-    width: 300px;
-    height: 300px;
+    /*position: relative;*/
+    margin-left: 4em;
+    margin-top: -4em;
+    max-height: 20em;
+    display: none;
 
 }
+.description1 {
+    margin-top: 10em;
+    border: solid lightyellow 1px ;
+    border-radius: 5px;
+    padding: 1em;
+    background-image: url("../images/wood_floor.jpg");
+}
+
