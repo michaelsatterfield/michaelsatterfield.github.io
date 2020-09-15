@@ -1,9 +1,11 @@
 body {
     background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif") ;
-    background-blend-mode: luminosity;
-    background-size:80% ;
+    background-blend-mode: darken;
+
+    background-size:100% ;
     text-align: center;
     color: whitesmoke;
+
 
 
 }
@@ -11,10 +13,14 @@ body {
     font-family: 'Roboto Mono', monospace;
     color: chartreuse;
 }
+.name{
+    color: black !important
+}
 
 
 #pictureMichael {
-
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: invert(20%);
     width: 300px;
     height: 300px;
 
