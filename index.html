@@ -9,6 +9,7 @@
     <link href="css/profile.css" rel="stylesheet">
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
           integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" rel="stylesheet">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
 
 </head>
 
@@ -21,50 +22,80 @@
              src="circle-cropped Michael Pfile pic.png">
         <h2><i class="icon fab fa-css3 col-4"></i></h2>
         <h2><i class="icon fab fa-html5 row-4"></i></h2>
-        <h2><i class="icon fab fa-css3 row-4"></i></h2>
+        <h2><i class="icon fab fa-js row-4"></i></h2>
 
     </div>
 </div>
 
+<!--<a class="test-popup-link" href="images/woodenTableSmoke.jpg">Open popup</a>-->
 
-<section class="description1 col-12-lg ">
-    <p>Arstist, Chef and <strong><em>Developer</em></strong></p>
-    <p> Hello, world! I am an Artist and Cook Looking for a career change towards Software and Web Development.
-        I Have also worked in Solar, Electrical and other Various Building Jobs. I am Ready for a desk Job</p>
-</section>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <section class="description1 col-12-lg ">
+                <p>Arstist, Chef and <strong><em>Developer</em></strong></p>
+                <p> Hello, world! I am an Artist and Cook Looking for a career change towards Software and Web Development.
+                    I Have also worked in Solar, Electrical and other Various Building Jobs. I am Ready for a desk Job</p>
+            </section>
+        </div>
+        <div class="carousel-item" data-interval="2000">
+            <section class="description1">
+                <h3>Education</h3>
+                <ul>
+                    <li><strong><a href="https://www.utrgv.edu/orientation/getting-here/brownsville/index.htm">The University of Texas
+                        at Brownsville</a></strong></li>
+                    <!==adjust later==>
+                    <br>
+                    <li>The Complete 2020 Web Development Bootcamp</li>
+                    <br>
+                    <li>Codeup San Antonio (io cohort 2020)</li>
+                </ul>
+            </section>
+        </div>
+        <div class="carousel-item">
+            <h3>Work Experience</h3>
+            <table cellspacing="10">
+                <thead>
+                <tr>
+                    <th>Dates</th>
+                    <th>Work</th>
+                </tr>
+                </thead>
+                <tbody>
+                <td>2019-2020</td>
+                <td>Solar PhotoVoltaic Crew Lead at Nerd Power</td>
+                <tr>
+                </tr>
 
-<section class="description1">
-<h3>Education</h3>
-<ul>
-    <li><strong><a href="https://www.utrgv.edu/orientation/getting-here/brownsville/index.htm">The University of Texas
-        at Brownsville</a></strong></li>
-    <!==adjust later==>
-    <br>
-    <li>The Complete 2020 Web Development Bootcamp</li>
-    <br>
-    <li>Codeup San Antonio (io cohort 2020)</li>
-</ul>
-</section>
+                <td>2016-2019</td>
+                <td>Owner/Operator of Miso American Food Truck/San Antonio,TX</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+
+
+
+
 <hr>
-<h3>Work Experience</h3>
-<table cellspacing="10">
-    <thead>
-    <tr>
-        <th>Dates</th>
-        <th>Work</th>
-    </tr>
-    </thead>
-    <tbody>
-    <td>2019-2020</td>
-    <td>Solar PhotoVoltaic Crew Lead at Nerd Power</td>
-    <tr>
-    </tr>
 
-    <td>2016-2019</td>
-    <td>Owner/Operator of Miso American Food Truck/San Antonio,TX</td>
-    </tr>
-    </tbody>
-</table>
 <hr>
 <h3>Skills</h3>
 <table cellspacing="10">
@@ -86,10 +117,10 @@
     </tr>
 </table>
 
-<hr>
+
 <a href="hobbies.html">My Hobbies</a>
 <a href="contact me.html">Contact Me</a>
-<hr>
+
 <script crossorigin="anonymous" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
         src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script crossorigin="anonymous" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
@@ -97,6 +128,7 @@
 <script crossorigin="anonymous" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="js/profile.js"></script>
+<script src="magnific-popup/jquery.magnific-popup.js"></script>
 
 </body>
 
