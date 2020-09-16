@@ -1,8 +1,8 @@
 body {
-    background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif") ;
+    /*background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif") ;*/
     background-color: black;
 
-    background-size:100% ;
+
     text-align: center;
 
 }
@@ -41,6 +41,8 @@ body {
 
 }
 .description1 {
+    display: inline-block;
+    min-height: 15em;
     margin-top: 10em;
     border: solid lightyellow 1px ;
     border-radius: 5px;
