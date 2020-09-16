@@ -1,6 +1,6 @@
 body {
-    /*background-image: url("https://media.giphy.com/media/2sebI6np6MGKvoOGZK/giphy.gif") ;*/
-    background-color: black;
+    background-image: url("../images/paper.jpeg") ;
+
 
 
     text-align: center;
@@ -10,13 +10,8 @@ body {
 
 *{
     font-family: 'Roboto Mono', monospace;
-  /
 }
 
-.jumbotron{
-    max-height: 14em;
-
-}
 .icon{
 
     /*display: none;*/
@@ -52,4 +47,16 @@ body {
     padding: 1em;
     background-image: url("../images/wood_floor.jpg");
 }
+.skills {
+    margin-top: 10em;
+    margin-bottom: 40em;
+    margin-left: 20em;
+    border: solid lightgray  1px ;
+    border-radius: 5px;
+    background: white;
+    padding: 1em;
+}
 
+.skillsTitle {
+    margin-right: 3.5em;
+}
