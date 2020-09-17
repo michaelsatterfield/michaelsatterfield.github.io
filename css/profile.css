@@ -1,8 +1,10 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 body {
     background-image: url("../images/paper.jpeg") ;
-
-
-
     text-align: center;
 
 }
@@ -48,9 +50,9 @@ body {
     background-image: url("../images/wood_floor.jpg");
 }
 .skills {
-    margin-top: 10em;
+    margin-top: 15em;
     margin-bottom: 40em;
-    margin-left: 20em;
+    /*margin-left: 20em;*/
     border: solid lightgray  1px ;
     border-radius: 5px;
     background: white;
@@ -58,5 +60,5 @@ body {
 }
 
 .skillsTitle {
-    margin-right: 3.5em;
+    /*margin-right: 3.5em;*/
 }
