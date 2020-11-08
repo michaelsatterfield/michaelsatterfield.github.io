@@ -4,6 +4,8 @@ html {
 
 
 body {
+    background-color: bisque;
+    background-blend-mode: luminosity;
     background-image: url("../images/paper.jpeg") ;
     text-align: center;
 
