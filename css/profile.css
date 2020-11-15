@@ -4,13 +4,13 @@ html {
 body { margin: 0; }
 canvas { display: block; }
 
-/*body {*/
-/*    background-color: bisque;*/
-/*    background-blend-mode: luminosity;*/
-/*    background-image: url("../images/paper.jpeg") ;*/
-/*    text-align: center;*/
+body {
+    background-color: bisque;
+    background-blend-mode: luminosity;
+    background-image: url("../images/paper.jpeg") ;
+    text-align: center;
 
-/*}*/
+}
 
 
 *{
