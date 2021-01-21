@@ -86,11 +86,11 @@ body {
 }
 
 .art{
-    max-height: 80em;
+    max-height: 40em;
 }
 .artImg{
     float: left;
-    width:  50em;
-    height: 50em;
+    width:  40em;
+    height: 40em;
     object-fit: scale-down;
 }
