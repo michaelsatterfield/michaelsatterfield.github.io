@@ -84,3 +84,13 @@ body {
 .skillsTitle {
     /*margin-right: 3.5em;*/
 }
+
+.art{
+    max-height: 80em;
+}
+.artImg{
+    float: left;
+    width:  50em;
+    height: 50em;
+    object-fit: scale-down;
+}
