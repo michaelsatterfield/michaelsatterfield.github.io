@@ -4,9 +4,9 @@ mapboxgl.accessToken = 'pk.eyJ1IjoibXNhdHRlcmZpZWxkIiwiYSI6ImNrZWN4MTg5ZjBuMnkyd
 
 
 // the  geocode method from mapbox-geocoder-utils.js
-geocode("Contramar Mexico City, Mexico", mapboxgl.accessToken).then(function(result) {
+geocode("Mexico City, Mexico", mapboxgl.accessToken).then(function(result) {
     console.log(result);
-    map.setCenter(result);
+    // map.setCenter(result);
     map.setZoom(5.5);
 
 });
@@ -31,7 +31,7 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/mapbox/satellite-streets-v11',
 
     pitch: 45,
-    center: [-99.1685, 19.4196]
+    center: [-99.1332, 19.4326]
 });
 
 
@@ -50,7 +50,7 @@ map.on('load', function() {
                     },
                     'geometry': {
                         'type': 'Point',
-                        'coordinates': [[-99.1672, 19.4196 ]]
+                        'coordinates': [[-99.1672, 25.4196 ]]
                     }
                 }
 
@@ -106,18 +106,18 @@ map.on('load', function() {
 const places = [
     {
         Name: 'El Vilsito'   ,
-        Info: '<p><img width="100px" src="images/pastor%20el%20vilsito.jpeg"><br>Hailed as one of the Best Pastor Tacos in Mexico City</p>',
+        Info: '<p><img width="100px" src="img/pastor%20el%20vilsito.jpeg"><br>Hailed as one of the Best Pastor Tacos in Mexico City</p>',
         Coordinates: [- 99.1527, 19.3894]
     },
     {
         Name: 'La Gruta'    ,
-        Info: '<p><img width="150px" src="images/gruta.jpeg"><br>Famous Restaurant Inside of a Cave<br> right next to<br>the Pyramid of the Sun (Teotihuacan)</p>',
+        Info: '<p><img width="150px" src="img/gruta.jpeg"><br>Famous Restaurant Inside of a Cave<br> right next to<br>the Pyramid of the Sun (Teotihuacan)</p>',
         Coordinates: [-98.8397,19.6888  ]
 
     },
     {
         Name: 'Contramar'   ,
-        Info: '<p><img width="100px" src="imagesg/contramar.jpg"><br>World Renowned Seafood Restaurant /<br>by<br> Gabriela Camara</p>',
+        Info: '<p><img width="100px" src="img/contramar.jpg"><br>World Renowned Seafood Restaurant /<br>by<br> Gabriela Camara</p>',
         Coordinates: [-99.1685, 19.4196]
 
     }
