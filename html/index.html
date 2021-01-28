@@ -6,20 +6,30 @@
     <title>Michael Satterfield</title>
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/1796d07355.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
-    <link href="css/profile.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Monoton&display=swap" rel="stylesheet">
+    <link href="../css/profile.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script crossorigin="anonymous" src="https://kit.fontawesome.com/1796d07355.js"></script>
-    <link rel="stylesheet" href="">>
+
 
 </head>
 
 <body class="container">
 
 
-<nav class="fixed-top navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light site-navbar-target" id="ftco-navbar">
+
+
+
+
+<nav style="background-color: #792a0f;" class="fixed-top navbar navbar-expand-lg navbar-dark ftco_navbar  ftco-navbar-light site-navbar-target" id="ftco-navbar">
     <div class="container">
 
         <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +41,7 @@
                 <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link"><span>Skills</span></a></li>
                 <li class="nav-item"><a href="#services-section" class="nav-link"><span>Services</span></a></li>
-                <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link"><span>Portfolio</span></a></li>
                 <li class="nav-item"><a href="http://blog.moggleblog.com/" class="nav-link"><span>Blog</span></a></li>
                 <li class="nav-item"><a href="#contact-section" class="nav-link"><span>Contact</span></a></li>
             </ul>
@@ -39,13 +49,19 @@
         <a class="navbar-brand" href="index.html">Michael Satterfield<span></span></a>
     </div>
 </nav>
-
-
-<div class="card mb-3" style="max-width: 800px; margin-top:150px;" >
+<div class="titleCard">
+<ul class="grid mx-0">
+    <li class="ot-letter-left "><h1><span data-letter="Michael">M</span></h1></li>
+    <li class="ot-letter-left "><h1><span data-letter="Satterfield">S</span></h1></li>
+    <!--    <li class="ot-letter-left"><span data-letter="er">er</span></li>-->
+    <!--    <li class="ot-letter-left"><span data-letter="field">field</span></li>-->
+</ul>
+</div>
+<div class="card mb-3 p-3" style="max-width: 1000px; margin-top:200px; border-radius: 10px; background-color: #a46d4c;" >
     <div class="row no-gutters">
         <div class="col-md-4">
             <img alt="Michael Satterfield Profile Pic" class='col-12 mt-3' id="cardPic"
-                 src="circle-cropped Michael Pfile pic.png">
+                 src="../circle-cropped%20Michael%20Pfile%20pic.png">
         </div>
         <div class="col-md-8">
 
@@ -75,26 +91,6 @@
                         </ul>
                         </section>
                     </div>
-<!--                    <div class="description1 carousel-item">-->
-<!--                        <h3>Work Experience</h3>-->
-<!--                        <table cellspacing="10">-->
-<!--                            <thead>-->
-<!--                            <tr>-->
-<!--                                <th>Dates</th>-->
-<!--                                <th>Work</th>-->
-<!--                            </tr>-->
-<!--                            </thead>-->
-<!--                            <tbody>-->
-<!--                            <td>2019-2020</td>-->
-<!--                            <td>Solar PhotoVoltaic Crew Lead at Nerd Power</td>-->
-<!--                            <tr>-->
-<!--                            </tr>-->
-
-<!--                            <td>2016-2019</td>-->
-<!--                            <td>Owner/Operator of Miso American Food Truck/San Antonio,TX</td>-->
-<!--                            </tr>-->
-<!--                            </tbody>-->
-<!--                        </table>-->
 
                     </div>
                 </div>
@@ -111,16 +107,24 @@
         </div>
     </div>
 </div>
-<script src="js/three.js"></script>
-<canvas id="canvas">
-</canvas>
+<!--<script src="../js/three.js"></script>-->
+<!--<canvas id="canvas">-->
+<!--</canvas>-->
 
 <hr>
 <!--ArtWork Display-->
+<div class=" title container">
+    <ul class="grid mx-0 ">
+        <li class="ot-letter-left artwork "><h1><span data-letter="Original">O</span></h1></li>
+        <li class="ot-letter-left artwork "><h1><span data-letter="Artwork">A</span></h1></li>
+        <!--    <li class="ot-letter-left"><span data-letter="er">er</span></li>-->
+        <!--    <li class="ot-letter-left"><span data-letter="field">field</span></li>-->
+    </ul>
+</div>
 <div class="row">
 
-<h2>Original Artwork</h2>
-<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+
+<div id="carouselExampleCaptions" class="carousel slide data-bs-ride="carousel">
     <ol class="carousel-indicators">
         <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
         <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
@@ -131,42 +135,42 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active art">
-            <img src="images/MsArtFemalePortrait.jpg" class="d-block w-100 artImg" alt="...">
+            <img src="../images/MsArtFemalePortrait.jpg" class="d-block w-100 artImg" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>'Portrait of a young lady' -Michael Satterfield</h5>
                 <p>Charcoal on Paper</p>
             </div>
         </div>
         <div class="carousel-item art">
-            <img src="images/self%20portrait.jpg" class="d-block w-100 artImg" alt="...">
+            <img src="../images/self%20portrait.jpg" class="d-block w-100 artImg" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>'Irked (Self Portrait)' -Michael Satterfield</h5>
                 <p>Acrylic on Canvas</p>
             </div>
         </div>
         <div class="carousel-item art">
-            <img src="images/michelangelo%20copy.jpg" class="d-block w-100 artImg" alt="...">
+            <img src="../images/michelangelo%20copy.jpg" class="d-block w-100 artImg" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>'Copy of Michelangelo's Work' -Michael Satterfield</h5>
                 <p>Charcoal on Paper</p>
             </div>
         </div>
         <div class="carousel-item art">
-            <img src="images/nude%20contour.jpg" class="d-block w-100 artImg" alt="...">
+            <img src="../images/nude%20contour.jpg" class="d-block w-100 artImg" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>'Nude Contour' -Michael Satterfield</h5>
                 <p>Graphite on Paper</p>
             </div>
         </div>
         <div class="carousel-item art">
-            <img src="images/nude%202.jpg" class="d-block w-100 artImg" alt="...">
+            <img src="../images/nude%202.jpg" class="d-block w-100 artImg" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>'Nude Study' -Michael Satterfield</h5>
                 <p>Graphite on Paper</p>
             </div>
         </div>
         <div class="carousel-item art">
-            <img src="images/Frida.jpg" class="d-block w-100 artImg" alt="...">
+            <img src="../images/Frida.jpg" class="d-block w-100 artImg" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h5>'Frida' -Michael Satterfield</h5>
                 <p>Graphite on Paper</p>
@@ -184,60 +188,113 @@
 </div>
 </div>
 <hr>
-<section class="skills w-50">
-    <h3 class=" skillsTitle d-flex justify-content-center">Skills</h3>
 
-    <table class="d-flex justify-content-center" cellspacing="10">
-        <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-            <td>Javascript</td>
-            <td>⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-            <td>JQuery</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-        <td>Bootstrap</td>
-        <td>⭐⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-        <td>Java</td>
-        <td>⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-        <td>Spring</td>
-        <td>⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-        <td>Thymeleaf</td>
-        <td>⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-            <td>Drawing</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        <tr>
-        </tr>
-            <td>Building</td>
-            <td>⭐⭐⭐⭐⭐</td>
-        </tr>
-    </table>
-
-</section>
-<script src="js/profile.js"></script>
+<!--<section class="places">-->
+<!--    <style>-->
+<!--        #menu {-->
+<!--            position: relative;-->
+<!--            padding: 5px;-->
+<!--            font-family: 'Open Sans', sans-serif;-->
+<!--        }-->
 
 
-<nav class="navbar bottom navbar-light bg-primary">
-    <a class="navbar-brand" href="https://my.indeed.com/p/michaels-ij5ch9b">hire me</a>
-    <a class="navbar-brand" href="hobbies.html">My Hobbies</a>
-    <a class="navbar-brand" href="mailto:michael.f.satterfield@gmail.com">Email Me</a>
+<!--        .mapboxgl-Popup {-->
+<!--            width: 700px;-->
+<!--            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;-->
+<!--        }-->
+<!--    </style>-->
+
+<!--    <section class="map1">-->
+<!--        <div id="map"></div>-->
+<!--        <main class="pic">-->
+<!--            <img width="auto" src="../images/mexico%20city.jpeg">-->
+<!--            <img src="../images/street%20food.jpeg">-->
+<!--            <img  src="../images/contramar%20food.jpeg">-->
+<!--        </main>-->
+<!--        <div id="menu">-->
+<!--            <input id="satellite-streets-v11" type="radio" name="rtoggle" value="satellite" checked="checked" />-->
+<!--            <label for="satellite-streets-v11">satellite</label>-->
+<!--            <input-->
+<!--                    id="streets-v11"-->
+<!--                    type="radio"-->
+<!--                    name="rtoggle"-->
+<!--                    value="streets"-->
+
+<!--            />-->
+<!--            <label for="streets-v11">streets</label>-->
+<!--            <input id="light-v10" type="radio" name="rtoggle" value="light" />-->
+<!--            <label for="light-v10">light</label>-->
+<!--            <input id="dark-v10" type="radio" name="rtoggle" value="dark" />-->
+<!--            <label for="dark-v10">dark</label>-->
+<!--            <input id="outdoors-v11" type="radio" name="rtoggle" value="outdoors" />-->
+<!--            <label for="outdoors-v11">outdoors</label>-->
+
+<!--        </div>-->
+
+<!--        <div id="description">-->
+<!--            <h1>Our Top 3 Picks for Places<br> to eat While In<br> Mexico City.</h1>-->
+<!--        </div>-->
+
+
+<!--    </section>-->
+<!--    <script src="../js/maps.js"></script>-->
+<!--</section>-->
+
+
+<!--<section class="skills w-50">-->
+<!--    <h3 class=" skillsTitle d-flex justify-content-center">Skills</h3>-->
+
+<!--    <table class="d-flex justify-content-center" cellspacing="10">-->
+<!--        <tr>-->
+<!--            <td>HTML</td>-->
+<!--            <td>⭐⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--            <td>CSS</td>-->
+<!--            <td>⭐⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--            <td>Javascript</td>-->
+<!--            <td>⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--            <td>JQuery</td>-->
+<!--            <td>⭐⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--        <td>Bootstrap</td>-->
+<!--        <td>⭐⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--        <td>Java</td>-->
+<!--        <td>⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--        <td>Spring</td>-->
+<!--        <td>⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--        <td>Thymeleaf</td>-->
+<!--        <td>⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--            <td>Drawing</td>-->
+<!--            <td>⭐⭐⭐⭐⭐</td>-->
+<!--        <tr>-->
+<!--        </tr>-->
+<!--            <td>Building</td>-->
+<!--            <td>⭐⭐⭐⭐⭐</td>-->
+<!--        </tr>-->
+<!--    </table>-->
+
+<!--</section>-->
+<script src="../js/profile.js"></script>
+
+
+<nav class="navbar bottom navbar-light bg-dark rounded-2">
+    <a class="navbar-brand text-white p-5" href="https://my.indeed.com/p/michaels-ij5ch9b">hire me</a>
+    <a class="navbar-brand" href="hobbies.html"></a>
+    <a class="navbar-brand text-white p-5" href="mailto:michael.f.satterfield@gmail.com">Email Me</a>
 </nav>
 
 
@@ -245,7 +302,7 @@
         src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-<script src="js/profile.js"></script>
+<script src="../js/profile.js"></script>
 <script src="magnific-popup/jquery.magnific-popup.js"></script>
 
 </body>
