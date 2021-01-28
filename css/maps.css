@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+
+}
+body {
+    background-color: cornsilk;
+display: flex;
+    align-items: baseline;
+}
+
+.map1{
+    display: flex;
+    justify-content: flex-start;
+}
+#description {
+    font-size: 35px;
+    position: absolute;
+    margin-top: 10px;
+
+    margin-left: 34%;
+
+
+    font-family: "Big Caslon";
+}
+#map {
+    position: absolute;
+    top: 100px; bottom: 25%; width: 25%;
+    width: 33%;
+    border-radius: 15px;
+
+}
+
+section {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.pic {
+
+    flex-direction: row;
+    display: flex;
+    margin-left: 490px;
+    margin-top: 275px;
+
+    border-radius: 20px;
+}
+
+#menu {
+    margin-top: 6%;
+}
+img{
+    border-radius: 3px;
+}

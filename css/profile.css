@@ -218,7 +218,7 @@ h1,h2{
     transform: rotateY(-40deg);
 }
 .ot-letter-left {
-
+display: block;
     max-height: 2em;
     max-width: 2em;
     margin-right: 10em;
