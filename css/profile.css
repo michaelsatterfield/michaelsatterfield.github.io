@@ -218,7 +218,7 @@ h1,h2{
     transform: rotateY(-40deg);
 }
 .ot-letter-left {
-display: block;
+/*display: block;*/
     max-height: 2em;
     max-width: 2em;
     margin-right: 10em;
@@ -230,7 +230,9 @@ display: block;
 }
 .artwork{
     display: inline-flex;!important;
-    margin-left: 3em;
+    /*flex-direction: row;*/
+    text-align: center;
+    /*margin-left: 3em;*/
 
 }
 
