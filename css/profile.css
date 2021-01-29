@@ -66,17 +66,19 @@ h1,h2{
     display: none;
 
 }
-.description1 {
+.description2 {
     color: black;
-    display: inline-block;
-    min-height: 15em;
-    max-height: 15em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    border: solid lightyellow 1px ;
-    border-radius: 5px;
-    padding: 1em;
-    background-image: url("../images/wood_floor.jpg");
+    /*display: inline-block;*/
+    /*min-height: 15em;*/
+    /*max-height: 15em;*/
+    margin-top: 3em;
+    padding: 3em
+    /*margin-bottom: 1em;*/
+    /*border: solid   1px ;*/
+    /*border-radius: 5px;*/
+    /*padding: 1em;*/
+
+    /*background-image: url("../images/wood_floor.jpg");*/
 }
 .skills {
     margin-top: 15em;
