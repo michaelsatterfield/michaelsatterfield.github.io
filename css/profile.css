@@ -13,9 +13,9 @@ position: relative;
 
 body {
 
-    background-blend-mode: luminosity;
-    background:bisque url("../images/paper.jpeg") no-repeat  ;
-    background-size: cover;
+    background-blend-mode: saturation;
+    background:white url("../images/paper.jpeg")   ;
+  x/
 
     ;
     text-align: center;
