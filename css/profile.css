@@ -1,7 +1,12 @@
 html {
     scroll-behavior: smooth;
+
 }
-body { margin: 0; }
+body {
+    padding:0;
+  /*margin-right: 0;*/
+  /*  width: 100%;*/
+}
 
 /*three.js example*/
 canvas{
@@ -12,12 +17,15 @@ position: relative;
 
 
 body {
+background: red url("../images/roadtrip 1.jpeg") no-repeat;
+    z-index: 1;
+    /*background-blend-mode: saturation;*/
+    /*!*background:lightblue url("../images/bg yellow.jpeg")   ;*!*/
+    background-size: 130em;
 
-    background-blend-mode: saturation;
-    background:white url("../images/paper.jpeg")   ;
-    ;
-    text-align: center;
-
+}
+.bottom{
+    background-image: -webkit-linear-gradient(white, #863b0f);
 }
 
 
@@ -49,6 +57,9 @@ h1,h2{
     /*margin-left: 10em;*/
 }
 
+.nav-link{
+    color: #4a3409 !important;
+}
 
 .name, .icon{
     color: black !important
@@ -171,7 +182,7 @@ h1,h2{
 .grid li span {
     display: inline-block;
     font-weight: 1000;
-    line-height: 10em;
+    line-height: 2em;
     position: relative;
     color: hsla(0, 0%, 0%, 0.6);
     transform-style: preserve-3d;
