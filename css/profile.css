@@ -17,7 +17,9 @@ position: relative;
 
 
 body {
-background: red url("../images/roadtrip 1.jpeg") no-repeat;
+background: red
+/*url("../images/roadtrip 1.jpeg")*/
+no-repeat;
     z-index: 1;
     /*background-blend-mode: saturation;*/
     /*!*background:lightblue url("../images/bg yellow.jpeg")   ;*!*/
